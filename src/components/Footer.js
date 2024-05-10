@@ -24,7 +24,7 @@ function Footer() {
                         <a href="https://www.instagram.com/shakentake_store/" target="_blank" rel="noreferrer">shakentake_store</a>
                     </td>
                     <td>
-                        <a href="https://www.google.com/maps/place/ShakeNTake/@33.8489692,35.9262763,21z/data=!4m6!3m5!1s0x1518cb066df5e7b3:0xcfd93054eab57186!8m2!3d33.8489445!4d35.9263199!16s%2Fg%2F11l1dk6lr7?entry=ttu" target="_blank" rel="noreferrer">Karak Nouh, Zahle</a>
+                        <a href="https://www.google.com/maps/place/ShakeNTake/@33.8489692,35.9262763,21z/data=!4m6!3m5!1s0x1518cb066df5e7b3:0xcfd93054eab57186!8m2!3d33.8489445!4d35.9263199!16s%2Fg%2F11l1dk6lr7?entry=ttu" target="_blank" rel="noreferrer">Karak, Zahle</a>
                     </td>
                 </tr>
                 </tbody>
