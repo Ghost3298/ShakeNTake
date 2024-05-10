@@ -10,6 +10,7 @@ function App() {
     <div className="App">
         <Navigation />
         <MyCarousel />
+        <h1>Hello</h1>
         <div className="DisplaySpace">
           <CategoriesDisplay/>
         </div>
