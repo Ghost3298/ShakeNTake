@@ -4,7 +4,8 @@
 
 .App {
     background-image: url('../public/images/bg.jpg');
-    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-repeat: repeat; /* Prevents the image from repeating */
+    background-size:contain; /* Ensures the image covers the entire container */
     background-position: center; /* Keeps the image centered within the container */
 }
 
