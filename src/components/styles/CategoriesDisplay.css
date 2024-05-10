@@ -1,0 +1,51 @@
+.MyCard {
+  border-radius: 8px;
+  width: 300px;
+  margin-top: 5px;
+  box-sizing: border-box;
+  padding: 10px;
+  box-shadow: rgba(255, 255, 255, 0.2) 0px 2px 8px 0px;
+  background-color: black;
+}
+
+.MyCard:hover {
+  transform: scale(1.1);
+  transition: 0.3s ease-in-out;
+}
+
+.MyCard img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 3/4;
+  object-fit: cover; 
+  border-radius: 8px; 
+  margin-bottom: 10px; /* Added margin to separate the image and the heading */
+}
+
+.MyCard a {
+  color: gold;
+  text-decoration: none;
+}
+
+.MyCard h5 {
+  margin: 0; /* Reset any default margin */
+}
+
+@media only screen and (max-width: 767px) {
+  .MyCard {
+    width: 150px;
+  }
+
+  .MyCard:hover {
+    transform: none;
+  }
+
+  .MyCard img {
+    aspect-ratio: 13/20; 
+    margin-bottom: 5px; /* Reduced margin for smaller screens */
+  }
+
+  .MyCard h5 {
+    font-size: 1rem;
+  }
+}

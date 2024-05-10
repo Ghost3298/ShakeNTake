@@ -1,0 +1,25 @@
+*{
+    user-select: none;
+}
+
+.App {
+    background-color: #151515;
+}
+
+.DisplaySpace{
+    margin-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 530px){
+    .DisplaySpace{
+        justify-content: center;
+        gap: 45px
+    }
+}

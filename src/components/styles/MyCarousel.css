@@ -1,0 +1,39 @@
+.Carousel{
+  margin-top: 56px;
+}
+
+.carousel-image-wrapper {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  .carousel-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+
+  @media (max-width: 768px) {
+    .carousel-image-wrapper {
+      height: 300px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .carousel-image-wrapper {
+      height: 200px;
+    }
+  }
+  
+
+h3, p {
+    text-shadow:
+    -0.5px -0.5px 0 black, /* Top-left shadow */
+    0.5px -0.5px 0 black,  /* Top-right shadow */
+    -0.5px 0.5px 0 black,  /* Bottom-left shadow */
+    0.5px 0.5px 0 black;   /* Bottom-right shadow */
+}

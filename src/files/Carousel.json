@@ -1,0 +1,20 @@
+[
+  {
+    "imgSrc": "/images/Carousel/image1.jpg",
+    "alt": "Muscular men",
+    "label": "Protein for Muscle Growth",
+    "caption": "Top-quality protein to boost energy and muscle growth"
+  },
+  {
+    "imgSrc": "/images/Carousel/image2.jpg",
+    "alt": "Sporty woman",
+    "label": "Power Your Workouts",
+    "caption": "Fuel your gains with our premium protein selection"
+  },
+  {
+    "imgSrc": "/images/Carousel/image3.jpg",
+    "alt": "Fitness man with protein powder",
+    "label": "Stay Lean, Get Strong",
+    "caption": "Discover blends for weight loss and muscle building"
+  }
+]
