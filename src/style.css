@@ -3,7 +3,10 @@
 }
 
 .App {
-    background-color: #151515;
+    background-image: url('../public/images/bg.jpg');
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-size: cover; /* Ensures the image covers the entire container */
+    background-position: center; /* Keeps the image centered within the container */
 }
 
 .DisplaySpace{
