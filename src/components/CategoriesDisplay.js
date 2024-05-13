@@ -13,7 +13,7 @@ function CategoriesDisplay() {
     <>
       {data.map((item) => (
         <div className="MyCard" key={item.key}>
-          <a href={item.link}>
+          <a href={`Items?category=${item.name}`}>
           <img src={item.imgSrc} alt={item.name} />
           <h5>{item.name}</h5>
           </a>

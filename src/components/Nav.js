@@ -41,7 +41,7 @@ function Navigation() {
                                         ))
                                     }
                                 </NavDropdown> 
-                                <Nav.Link href="#"><img src="images/cart.png" /></Nav.Link>
+                                <Nav.Link href="#"><img src="images/cart.png" alt="cart"/></Nav.Link>
                             </Nav>
                         </Offcanvas.Body>
                     </Navbar.Offcanvas>

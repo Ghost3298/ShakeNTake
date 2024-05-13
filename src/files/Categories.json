@@ -2,67 +2,56 @@
     {
         "key": 1,
         "name": "Whey Protein",
-        "imgSrc": "/images/Categories/Protein.jpg",
-        "link" : "#"
+        "imgSrc": "/images/Categories/Protein.jpg"        
     },
     {
         "key": 2,
         "name": "Creatine",
-        "imgSrc": "/images/Categories/Creatine.jpg",
-        "link" : "#"
+        "imgSrc": "/images/Categories/Creatine.jpg"        
     },
     {
         "key": 3,
         "name": "BCAA & EAA",
-        "imgSrc": "/images/Categories/BCAA.png",
-        "link" : "#"
+        "imgSrc": "/images/Categories/BCAA.png"        
     },
     {
         "key": 4,
         "name": "Vitamins",
-        "imgSrc": "/images/Categories/Vitamins.jpg",
-        "link" : "#"
+        "imgSrc": "/images/Categories/Vitamins.jpg"        
     },
     {
         "key": 5,
         "name": "Carbs",
-        "imgSrc": "/images/Categories/Carbs.jpg",
-        "link" : "#"
+        "imgSrc": "/images/Categories/Carbs.jpg"        
     },
     {
         "key": 6,
         "name": "Pre-Workout",
-        "imgSrc": "/images/Categories/Preworkout.jpg",
-        "link" : "#"
+        "imgSrc": "/images/Categories/Preworkout.jpg"        
     },
     {
         "key": 7,
         "name": "Fat Burners",
-        "imgSrc": "/images/Categories/Fatburner.jpg",
-        "link" : "#"
+        "imgSrc": "/images/Categories/Fatburner.jpg"        
     },
     {
         "key": 8,
         "name": "Mass Gainer",
-        "imgSrc": "/images/Categories/MassGainer.jpg",
-        "link" : "#"
+        "imgSrc": "/images/Categories/MassGainer.jpg"        
     },
     {
         "key": 9,
         "name": "Testosterone Booster",
-        "imgSrc": "/images/Categories/Testo.jpg",
-        "link" : "#"
+        "imgSrc": "/images/Categories/Testo.jpg"        
     },
     {
         "key": 10,
         "name": "Functional Foods",
-        "imgSrc": "/images/Categories/Functional.jpg",
-        "link" : "#"
+        "imgSrc": "/images/Categories/Functional.jpg"        
     },
     {
         "key": 11,
         "name": "Health & Wellness Supplements",
-        "imgSrc": "/images/Categories/Health.jpg",
-        "link" : "#"
+        "imgSrc": "/images/Categories/Health.jpg"        
     }
 ]
