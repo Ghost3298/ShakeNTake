@@ -1,0 +1,24 @@
+.paragraphDiv{
+    background-color: black;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    word-wrap: break-word;
+    margin-left: 150px;
+    margin-right: 150px;
+    border-top : 0.5px solid grey
+}
+
+.paraImg{
+    width: 64px;
+    height: 64px;
+    filter:invert(1);
+}
+
+@media only screen and (max-width: 767px){
+    .paragraphDiv{
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+}
