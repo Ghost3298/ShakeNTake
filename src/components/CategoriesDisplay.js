@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import categoriesData from '../files/Categories.json';
 import './styles/CategoriesDisplay.css';
+import Items from './Items';
 
 function CategoriesDisplay() {
   const [data, setData] = useState([]);
@@ -13,7 +14,7 @@ function CategoriesDisplay() {
     <>
       {data.map((item) => (
         <div className="MyCard" key={item.key}>
-          <a href={`Items?category=${item.name}`}>
+          <a href={<Items category={item.name}/>}>
           <img src={item.imgSrc} alt={item.name} />
           <h5>{item.name}</h5>
           </a>
