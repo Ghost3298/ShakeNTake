@@ -5,8 +5,23 @@ import Footer from './components/Footer';
 import CategoriesDisplay from './components/CategoriesDisplay';
 import Paragraph from './components/Paragraph';
 import './style.css';
+import Items from './components/Items';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
+  return (
+    <div className="App">
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/items" element={<Items />} />
+        </Routes>
+      </BrowserRouter>
+    </div>
+  );
+}
+
+function Home() {
   return (
     <div className="App">
         <Navigation />

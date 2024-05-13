@@ -6,6 +6,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import Data from "../files/Categories.json"
 import './styles/nav.css';
+import { Link } from 'react-router-dom';
 
 function Navigation() {
     const [expandNavbar, setExpandNavbar] = useState(true);
@@ -37,7 +38,7 @@ function Navigation() {
                                 <NavDropdown title="Categories" style={{position : 'relative', right : '10' }} id="offcanvasNavbarDropdown-expand-false" align="end">
                                     {
                                         Data.map(category => (
-                                            <NavDropdown.Item key={category.name} href={category.link}>{category.name}</NavDropdown.Item>
+                                            <NavDropdown.Item key={category.name}><Link to={`/items?category=${encodeURIComponent(category.name)}`}  className="links">{category.name}</Link></NavDropdown.Item>
                                         ))
                                     }
                                 </NavDropdown> 

@@ -5,5 +5,12 @@
         "Price" : 100,
         "Sale" : 20,
         "img"  : "https://m.media-amazon.com/images/I/71W6qutdKaS.jpg"
+    },
+    {
+        "category" : "Creatine",
+        "name" : "Gold Whey",
+        "Price" : 100,
+        "Sale" : 20,
+        "img"  : "https://m.media-amazon.com/images/I/71W6qutdKaS.jpg"
     }
 ]
