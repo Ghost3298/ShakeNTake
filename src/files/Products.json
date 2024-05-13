@@ -1,16 +1,206 @@
 [
     {
         "category" : "Whey Protein",
+        "name" : "Whey Legend",
+        "Price" : 64.99,
+        "Sale" : 0,
+        "img"  : "/images/Products/Whey Legend.jpg"
+    },
+    {
+        "category" : "Whey Protein",
+        "name" : "Core Whey",
+        "Price" : 64.99,
+        "Sale" : 0,
+        "img"  : "/images/Products/Core Whey.jpg"
+    },
+    {
+        "category" : "Whey Protein",
+        "name" : "Anabolic Iso Whey",
+        "Price" : 74.99,
+        "Sale" : 0,
+        "img"  : "/images/Products/Anabolic ISO Whey.jpg"
+    },
+    {
+        "category" : "Whey Protein",
+        "name" : "Gold Iso Whey",
+        "Price" : 74.99,
+        "Sale" : 0,
+        "img"  : "/images/Products/Gold ISO.jpg"
+    },
+    {
+        "category" : "Whey Protein",
         "name" : "Gold Whey",
-        "Price" : 100,
-        "Sale" : 20,
-        "img"  : "https://m.media-amazon.com/images/I/71W6qutdKaS.jpg"
+        "Price" : 64.99,
+        "Sale" : 0,
+        "img"  : "/images/Products/Gold Whey.jpg"
+    },
+    {
+        "category" : "Whey Protein",
+        "name" : "Combat MP",
+        "Price" : 64.99,
+        "Sale" : 0,
+        "img"  : "/images/Products/MP Combat.jpg"
+    },
+    {
+        "category" : "Whey Protein",
+        "name" : "Iso Hearn Protein",
+        "Price" : 74.99,
+        "Sale" : 0,
+        "img"  : "/images/Products/ISO Hearn Protein.jpg"
+    },
+    {
+        "category" : "Whey Protein",
+        "name" : "Gold Standard Casein",
+        "Price" : 47.99,
+        "Sale" : 0,
+        "img"  : "/images/Products/Gold Standard Casein.jpg"
+    },
+    {
+        "category" : "Whey Protein",
+        "name" : "V-Whey",
+        "Price" : 59.99,
+        "Sale" : 0,
+        "img"  : "/images/Products/V-Whey.jpg"
+    },
+    {
+        "category" : "Whey Protein",
+        "name" : "Protein Power 1Kg",
+        "Price" : 34.99,
+        "Sale" : 0,
+        "img"  : "/images/Products/Protein Power.jpg"
+    },
+    {
+        "category" : "Whey Protein",
+        "name" : "Gold Standard Whey",
+        "Price" : 84.99,
+        "Sale" : 0,
+        "img"  : "/images/Products/Gold Standard Whey.jpg"
+    },
+    {
+        "category" : "Whey Protein",
+        "name" : "Muscle Infusion",
+        "Price" : 59.99,
+        "Sale" : 0,
+        "img"  : "/images/Products/Muscle Infusion.jpg"
+    },
+    {
+        "category" : "Whey Protein",
+        "name" : "Premium Whey Protein",
+        "Price" : 59.99,
+        "Sale" : 0,
+        "img"  : "/images/Products/Premium Whey Protein.jpg"
+    },
+    {
+        "category" : "Whey Protein",
+        "name" : "Isotope",
+        "Price" : 74.99,
+        "Sale" : 0,
+        "img"  : "/images/Products/Isotope.jpg"
+    },
+    {
+        "category" : "Whey Protein",
+        "name" : "Iso Hd",
+        "Price" : 69.99,
+        "Sale" : 0,
+        "img"  : "/images/Products/ISO HD.jpg"
+    },
+    {
+        "category" : "Whey Protein",
+        "name" : "100 Whey",
+        "Price" : 59.99,
+        "Sale" : 0,
+        "img"  : "/images/Products/100 Whey.jpg"
+    },
+    {
+        "category" : "Whey Protein",
+        "name" : "Vegan Protein",
+        "Price" : 34.99,
+        "Sale" : 0,
+        "img"  : "/images/Products/Vegan Protein.jpg"
+    },
+    {
+        "category" : "Whey Protein",
+        "name" : "Whey Protein",
+        "Price" : 64.99,
+        "Sale" : 0,
+        "img"  : "/images/Products/Whey Protein.jpg"
     },
     {
         "category" : "Creatine",
-        "name" : "Gold Whey",
-        "Price" : 100,
-        "Sale" : 20,
-        "img"  : "https://m.media-amazon.com/images/I/71W6qutdKaS.jpg"
+        "name" : "Galvanize Creatine",
+        "Price" : 24.99,
+        "Sale" : 0,
+        "img"  : "/images/Products/Galvanize Creatine.jpg"
+    },
+    {
+        "category" : "Creatine",
+        "name" : "ON Creatine",
+        "Price" : 34.55,
+        "Sale" : 0,
+        "img"  : "/images/Products/ON Creatine.jpg"
+    },
+    {
+        "category" : "Creatine",
+        "name" : "All Stars Creatine",
+        "Price" : 29.99,
+        "Sale" : 0,
+        "img"  : "/images/Products/All Stars Creatine.jpg"
+    },
+    {
+        "category" : "Creatine",
+        "name" : "RSP Creatine",
+        "Price" : 26.99,
+        "Sale" : 0,
+        "img"  : "/images/Products/RSP Creatine.jpg"
+    },
+    {
+        "category" : "Creatine",
+        "name" : "Muscle Rulz Creatine",
+        "Price" : 24.99,
+        "Sale" : 0,
+        "img"  : "/images/Products/Muscle Rulz Creatine.jpg"
+    },
+    {
+        "category" : "Creatine",
+        "name" : "Gold Creatine",
+        "Price" : 25.99,
+        "Sale" : 0,
+        "img"  : "/images/Products/Gold Creatine.jpg"
+    },
+    {
+        "category" : "Creatine",
+        "name" : "Anabolic Creatine",
+        "Price" : 25.99,
+        "Sale" : 0,
+        "img"  : "/images/Products/Anabolic Creatine.jpg"
+    },
+    {
+        "category" : "Creatine",
+        "name" : "BioTech USA Creatine",
+        "Price" : 29.99,
+        "Sale" : 0,
+        "img"  : "/images/Products/Biotech USA Creatine.jpg"
+    },
+    {
+        "category" : "Creatine",
+        "name" : "Nutrex Creatine",
+        "Price" : 24.99,
+        "Sale" : 0,
+        "img"  : "/images/Products/Nutrex Creatine.jpg"
+    },
+    {
+        "category" : "Creatine",
+        "name" : "Nuclear Creatine",
+        "Price" : 24.99,
+        "Sale" : 0,
+        "img"  : "/images/Products/Nuclear Creatine.jpg"
+    },
+    {
+        "category" : "Creatine",
+        "name" : "Cell Tech Creatine",
+        "Price" : 49.99,
+        "Sale" : 0,
+        "img"  : "/images/Products/Cell Tech Creatine.jpg"
     }
+    
 ]
