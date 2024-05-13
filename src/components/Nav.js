@@ -32,6 +32,7 @@ function Navigation() {
                         <Offcanvas.Header className="offCanvas" closeButton />
                         <Offcanvas.Body className="offCanvas">
                             <Nav className="justify-content-end flex-grow-1 pe-3">
+                                
                                 <Nav.Link href="#action2">Contact Us</Nav.Link>
                                 <NavDropdown title="Categories" style={{position : 'relative', right : '10' }} id="offcanvasNavbarDropdown-expand-false" align="end">
                                     {
@@ -39,7 +40,8 @@ function Navigation() {
                                             <NavDropdown.Item key={category.name} href={category.link}>{category.name}</NavDropdown.Item>
                                         ))
                                     }
-                                </NavDropdown>
+                                </NavDropdown> 
+                                <Nav.Link href="#"><img src="images/cart.png" /></Nav.Link>
                             </Nav>
                         </Offcanvas.Body>
                     </Navbar.Offcanvas>
