@@ -15,11 +15,10 @@ function Items(category) {
 
         <div className='DisplaySpace'>
           {data.map((item) => (
-            <div className="MyCard" key={item.key}>
-              <a href={item.name}>
+            <div className="MyCard">
               <img src={item.img} alt={item.name} />
               <h5>{item.name}</h5>
-              </a>
+              <p>{item.Price}</p>
             </div>
           ))}
         </div>
