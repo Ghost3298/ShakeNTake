@@ -18,7 +18,7 @@ function Items() {
         const filteredData = productsData.filter(item => item.category === category);
         setData(filteredData);
     }, [category]); // Trigger useEffect when category changes
-   
+
     return (
         <div className="App">
             <Navigation />
@@ -28,7 +28,16 @@ function Items() {
                     <div className="MyCard" key={item.id}>
                         <img src={item.img} alt={item.name} />
                         <h5>{item.name}</h5>
-                        <p>{item.Price} $</p>
+                        {item.Sale > 0 ? (
+                            <div>
+                                <p className="original-price">
+                                    <span style={{ textDecoration: 'line-through' }}>{item.Price.toFixed(2)} $ </span>&nbsp;<span style={{ color : 'red' , fontWeight : 'bold' }}> {(item.Price * (1 - item.Sale / 100)).toFixed(2)} $  </span>
+                                </p>
+
+                            </div>
+                        ) : (
+                            <p>{item.Price.toFixed(2)} $</p>
+                        )}
                     </div>
                 ))}
             </div>
