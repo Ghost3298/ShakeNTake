@@ -201,6 +201,41 @@
         "Price" : 49.99,
         "Sale" : 0,
         "img"  : "/images/Products/Cell Tech Creatine.jpg"
+    },
+    {
+        "category" : "BCAA & EAA",
+        "name" : "Amino Lean",
+        "Price" : 29.99,
+        "Sale" : 0,
+        "img"  : "/images/Products/Amino Lean.jpg"
+    },
+    {
+        "category" : "BCAA & EAA",
+        "name" : "EAA Surge",
+        "Price" : 32.99,
+        "Sale" : 0,
+        "img"  : "/images/Products/EAA Surge.jpg"
+    },
+    {
+        "category" : "BCAA & EAA",
+        "name" : "BCAA Muscle Rulz",
+        "Price" : 27.99,
+        "Sale" : 0,
+        "img"  : "/images/Products/BCAA Muscle Rulz.jpg"
+    },
+    {
+        "category" : "BCAA & EAA",
+        "name" : "BCAA 6000",
+        "Price" : 27.99,
+        "Sale" : 0,
+        "img"  : "/images/Products/BCAA 6000.jpg"
+    },
+    {
+        "category" : "BCAA & EAA",
+        "name" : "BCAA XTEND",
+        "Price" : 27.99,
+        "Sale" : 0,
+        "img"  : "/images/Products/BCAA Xtend.jpg"
     }
     
 ]
