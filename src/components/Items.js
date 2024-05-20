@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
-import productsData from '../files/Products.json'; 
+import productsData from '../files/Products.json';
 import './styles/items.css';
 import Navigation from './Nav';
 import MyCarousel from './MyCarousel';
@@ -32,14 +32,29 @@ function Items() {
                             {item.Sale > 0 ? (
                                 <div>
                                     <p className="original-price">
-                                        <span style={{ textDecoration: 'line-through' }}>{item.Price.toFixed(2)} $ </span>&nbsp;<span style={{ color : 'red' , fontWeight : 'bold' }}> {(item.Price * (1 - item.Sale / 100)).toFixed(2)} $  </span>
+                                        <span style={{ textDecoration: 'line-through' }}>
+                                            {item.Price.toFixed(2)} $
+                                        </span>
+                                        &nbsp;
+                                        <span style={{ color: 'red', fontWeight: 'bold' }}>
+                                            {(item.Price * (1 - item.Sale / 100)).toFixed(2)} $
+                                        </span>
                                     </p>
                                 </div>
                             ) : (
                                 <p>{item.Price.toFixed(2)} $</p>
                             )}
                         </div>
-                        <button className='CartButton'>Add to cart</button>
+                        {item.Flavors && item.Flavors.length > 0 ? (
+                            <select className='CartButton'>
+                                <option className='flavorsButton'>Select Flavor</option>
+                                {item.Flavors.map((flavor, index) => (
+                                    <option key={index} value={flavor}>{flavor}</option>
+                                ))}
+                            </select>
+                        ) : (
+                            <button className='CartButton'>Add to cart</button>
+                        )}
                     </div>
                 ))}
             </div>

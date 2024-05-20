@@ -5,7 +5,8 @@
         "name"      :   "Whey Legend",
         "Price"     :   64.99,
         "Sale"      :   50,
-        "img"       :   "/images/Products/Whey Legend.jpg"
+        "img"       :   "/images/Products/Whey Legend.jpg",
+        "Flavors"   :   [ "Vanilla" , "Chocolate" ]
     },
     {
         "id"        :   2,
@@ -13,7 +14,8 @@
         "name"      :   "Core Whey",
         "Price"     :   64.99,
         "Sale"      :   0,
-        "img"       :   "/images/Products/Core Whey.jpg"
+        "img"       :   "/images/Products/Core Whey.jpg",
+        "Flavors"   :   0
     },
     {
         "id"        :   3,
@@ -53,7 +55,8 @@
         "name"      :   "Iso Hearn Protein",
         "Price"     :   74.99,
         "Sale"      :   0,
-        "img"       :   "/images/Products/ISO Hearn Protein.jpg"
+        "img"       :   "/images/Products/ISO Hearn Protein.jpg",
+        "Flavors"   :   [ "Vanilla", "Chocolate"]
     },
     {
         "id"        :   8,
@@ -141,7 +144,8 @@
         "name"      :   "Whey Protein",
         "Price"     :   64.99,
         "Sale"      :   0,
-        "img"       :   "/images/Products/Whey Protein.jpg"
+        "img"       :   "/images/Products/Whey Protein.jpg",
+        "Flavors"   :   [ "Chocolate", "Strawberry", "Cookies" ]
     },
     {
         "id"        :   19,
@@ -453,7 +457,8 @@
         "name"      :   "Gain Rulz",
         "Price"     :   69.99,
         "Sale"      :   0,
-        "img"       :   "/images/Products/BCAA Xtend.jpg"
+        "img"       :   "/images/Products/BCAA Xtend.jpg",
+        "Flavors"   :   [ "Chocolate", "Strawberry" ]
     },
     {
         "id"        :   58,
@@ -573,7 +578,8 @@
         "name"      :   "Acup 40g",
         "Price"     :   2.99,
         "Sale"      :   0,
-        "img"       :   "/images/Products/BCAA Xtend.jpg"
+        "img"       :   "/images/Products/BCAA Xtend.jpg",
+        "Flavors"   :   [ "Trio", "Invasion" ]
     },
     {
         "id"        :   73,
@@ -581,7 +587,8 @@
         "name"      :   "Acup 25g",
         "Price"     :   1.99,
         "Sale"      :   0,
-        "img"       :   "/images/Products/BCAA Xtend.jpg"
+        "img"       :   "/images/Products/BCAA Xtend.jpg",
+        "Flavors"   :   [ "Double Chocolate", "Red Berries", "Cookies and Cream", "Vanilla Ice Cream", "Coffee Dream", "Vanilla and Dates", "Knefe", "Honey" ]
     },
     {
         "id"        :   74,
@@ -589,7 +596,8 @@
         "name"      :   "Acup 15g",
         "Price"     :   1.77,
         "Sale"      :   0,
-        "img"       :   "/images/Products/BCAA Xtend.jpg"
+        "img"       :   "/images/Products/BCAA Xtend.jpg",
+        "Flavors"   :   [ "Cheese Cake", "Crispy Chocolate", "Vanilla Marvel" ]
     },
     {
         "id"        :   75,
@@ -597,7 +605,8 @@
         "name"      :   "Acup 10g",
         "Price"     :   1.55,
         "Sale"      :   0,
-        "img"       :   "/images/Products/BCAA Xtend.jpg"
+        "img"       :   "/images/Products/BCAA Xtend.jpg",
+        "Flavors"   :   [ "Cereal Delight "]
     },
     {
         "id"        :   76,
@@ -605,7 +614,8 @@
         "name"      :   "Protein Bar",
         "Price"     :   2.99,
         "Sale"      :   0,
-        "img"       :   "/images/Products/BCAA Xtend.jpg"
+        "img"       :   "/images/Products/BCAA Xtend.jpg",
+        "Flavors"   :   [ "Peanut Butter", "Peanut Butter with Cacao" ]
     },
     {
         "id"        :   77,
