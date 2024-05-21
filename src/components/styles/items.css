@@ -55,7 +55,7 @@
   text-align: center;
 }
 
-.CartButton:hover{
+.CartButton:active{
   background-color: gold;
   color:black;
 }
