@@ -5,6 +5,7 @@ import './styles/items.css';
 import Navigation from './Nav';
 import MyCarousel from './MyCarousel';
 import Footer from './Footer';
+import {addToCart} from './addToCart';
 
 function Items() {
     const location = useLocation();
@@ -12,12 +13,22 @@ function Items() {
     const category = queryParams.get('category');
 
     const [data, setData] = useState([]);
+    const [selectedFlavors, setSelectedFlavors] = useState({});
 
     useEffect(() => {
         // Filter productsData based on the category
         const filteredData = productsData.filter(item => item.category === category);
         setData(filteredData);
     }, [category]); // Trigger useEffect when category changes
+
+    const handleFlavorChange = (id, flavor) => {
+        setSelectedFlavors(prevState => ({ ...prevState, [id]: flavor }));
+    };
+
+    const handleAddToCart = (id, name, flavors) => {
+        const selectedFlavor = flavors ? selectedFlavors[id] || flavors[0] : null;
+        addToCart(id, name, selectedFlavor);
+    };
 
     return (
         <div className="App">
@@ -46,14 +57,34 @@ function Items() {
                             )}
                         </div>
                         {item.Flavors && item.Flavors.length > 0 ? (
-                            <select className='CartButton'>
-                                <option className='flavorsButton'>Select Flavor</option>
-                                {item.Flavors.map((flavor, index) => (
-                                    <option key={index} value={flavor}>{flavor}</option>
-                                ))}
-                            </select>
+                            <div>
+                                <select
+                                    className='CartButton'
+                                    onChange={(e) => handleFlavorChange(item.id, e.target.value)}
+                                >
+                                    <option className='flavorsButton' value="">
+                                        Select Flavor
+                                    </option>
+                                    {item.Flavors.map((flavor, index) => (
+                                        <option key={index} value={flavor}>
+                                            {flavor}
+                                        </option>
+                                    ))}
+                                </select>
+                                <button
+                                    className='CartButton'
+                                    onClick={() => handleAddToCart(item.id, item.name, item.Flavors)}
+                                >
+                                    Add to cart
+                                </button>
+                            </div>
                         ) : (
-                            <button className='CartButton'>Add to cart</button>
+                            <button
+                                className='CartButton'
+                                onClick={() => handleAddToCart(item.id, item.name, null)}
+                            >
+                                Add to cart
+                            </button>
                         )}
                     </div>
                 ))}
