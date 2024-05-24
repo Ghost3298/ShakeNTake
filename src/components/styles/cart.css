@@ -1,0 +1,17 @@
+/* Cart.css */
+.cart-container {
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    color:white
+}
+
+.cart-items {
+    list-style-type: none;
+    padding: 0;
+}
+
+.cart-item {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}

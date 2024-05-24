@@ -25,10 +25,11 @@ function Items() {
         setSelectedFlavors(prevState => ({ ...prevState, [id]: flavor }));
     };
 
-    const handleAddToCart = (id, name, flavors) => {
+    const handleAddToCart = (id, name, flavors, price) => {
         const selectedFlavor = flavors ? selectedFlavors[id] || flavors[0] : null;
-        addToCart(id, name, selectedFlavor);
+        addToCart(id, name, selectedFlavor, price); // Pass the price to addToCart
     };
+    
 
     return (
         <div className="App">
@@ -73,7 +74,7 @@ function Items() {
                                 </select>
                                 <button
                                     className='CartButton'
-                                    onClick={() => handleAddToCart(item.id, item.name, item.Flavors)}
+                                    onClick={() => handleAddToCart(item.id, item.name, item.Flavors, item.Price)}
                                 >
                                     Add to cart
                                 </button>
@@ -81,7 +82,7 @@ function Items() {
                         ) : (
                             <button
                                 className='CartButton'
-                                onClick={() => handleAddToCart(item.id, item.name, null)}
+                                onClick={() => handleAddToCart(item.id, item.name, null, item.Price)}
                             >
                                 Add to cart
                             </button>

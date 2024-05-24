@@ -53,8 +53,9 @@ function Navigation() {
                                         </NavDropdown.Item>
                                     ))}
                                 </NavDropdown>
+                                
                                 <div className='cartDiv' id="cartDiv">
-                                    <Nav.Link href="#"><img src="images/cart.png" alt="cart" /></Nav.Link>
+                                    <Nav.Link><Link to={'/cart'}><img src="images/cart.png" alt="cart" /></Link></Nav.Link>
                                     {cartCount > 0 && (
                                         <div className="cart-badge">
                                             {cartCount}
