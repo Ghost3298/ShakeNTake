@@ -8,8 +8,10 @@ import Data from "../files/Categories.json";
 import './styles/nav.css';
 import { Link } from 'react-router-dom';
 import { getCartItems } from './addToCart'; // Import the function correctly
+import Search from './Search';
 
 function Navigation() {
+    
     const [expandNavbar, setExpandNavbar] = useState(true);
     const [cartCount, setCartCount] = useState(0);
 
@@ -40,6 +42,7 @@ function Navigation() {
             <Navbar expand={expandNavbar} className="bg-black" variant="dark" data-bs-theme="dark" bg="dark" style={{ boxShadow: "0 1px 10px 0 rgba(255, 255, 255, 0.1)", zIndex: "999" }} fixed="top">
                 <Container fluid>
                     <Navbar.Brand href="../">Shake N Take</Navbar.Brand>
+                    <Search />
                     <Navbar.Toggle aria-controls="offcanvasNavbar-expand-false" />
                     <Navbar.Offcanvas id="offcanvasNavbar-expand-false" aria-labelledby="offcanvasNavbarLabel-expand-false" placement="end" data-bs-theme="dark">
                         <Offcanvas.Header className="offCanvas" closeButton />

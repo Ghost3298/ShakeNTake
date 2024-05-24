@@ -19,16 +19,17 @@ function Items() {
         // Filter productsData based on the category
         const filteredData = productsData.filter(item => item.category === category);
         setData(filteredData);
-    }, [category]); // Trigger useEffect when category changes
+    }, [category]); 
 
     const handleFlavorChange = (id, flavor) => {
         setSelectedFlavors(prevState => ({ ...prevState, [id]: flavor }));
     };
 
-    const handleAddToCart = (id, name, flavors, price) => {
+    const handleAddToCart = (id, name, flavors, price, img) => {
         const selectedFlavor = flavors ? selectedFlavors[id] || flavors[0] : null;
-        addToCart(id, name, selectedFlavor, price); // Pass the price to addToCart
+        addToCart(id, name, selectedFlavor, price, img); // Pass the img to addToCart
     };
+    
     
 
     return (

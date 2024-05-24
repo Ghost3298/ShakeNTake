@@ -1,11 +1,11 @@
 import Cookies from 'js-cookie';
 
-function addToCart(id, name, flavor, price) {
+function addToCart(id, name, flavor, price, img) {
     // Retrieve the existing cart items from cookies
     const cartItems = JSON.parse(Cookies.get('cartItems') || '[]');
     
     // Create a new cart item
-    const newItem = { id, name, flavor, price }; // Include price in the newItem object
+    const newItem = { id, name, flavor, price, img }; // Include img in the newItem object
     
     // Add the new item to the cart
     cartItems.push(newItem);

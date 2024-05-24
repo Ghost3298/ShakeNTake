@@ -23,6 +23,7 @@ function Cart() {
                             <th>Item</th>
                             <th>Flavor</th>
                             <th>Price/Unit</th>
+                            <th>Image</th>
                             <th>Quantity</th>
                             <th>Price</th>
                             <th></th>
@@ -35,6 +36,7 @@ function Cart() {
                                     <td>{item.name}</td>
                                     <td>{item.flavor}</td>
                                     <td>{item.price} $</td>
+                                    <td><img src={item.img} alt={item.name} /></td>
                                     <td></td>
                                     <td></td>
                                     <td><button>remove</button></td>
@@ -42,7 +44,7 @@ function Cart() {
                             ))
                         ) : (
                             <tr>
-                                <td colSpan="2">Your cart is empty.</td>
+                                <td colSpan="7">Your cart is empty.</td>
                             </tr>
                         )}
                     </tbody>

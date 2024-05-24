@@ -1,0 +1,71 @@
+form{
+    display: flex;
+    border: 1px solid white;
+    border-radius: 8px;
+}
+
+input{
+    background-color: transparent;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    width: 200px;
+}
+
+input:focus{
+    outline: none;
+}
+
+
+.search-dropdown {
+    position: absolute;
+    top: 50px;
+    left: 150px;
+    width: 200px; /* Adjust width as needed */
+    background-color: black; /* Set the background color */
+    border-radius: 8px;
+    z-index: 1;
+  }
+  
+  .search-dropdown ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .search-dropdown li {
+    padding: 8px 10px;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .search-dropdown li:hover {
+    background-color: #333; /* Change hover background color */
+  }
+  
+  /* Remove default list styling */
+  .search-dropdown ul {
+    padding: 0;
+    margin: 0;
+  }
+  
+  .search-dropdown li {
+    list-style: none;
+  }
+  
+@media only screen and (max-width: 767px){
+    form{
+        border: 0.5px solid white;
+    }
+    
+    input{
+        width: 140px;
+    }
+
+    .searchImage{
+        position: relative;
+        top: 2px;
+        right: 10px
+    }
+}
