@@ -17,38 +17,23 @@ function Cart() {
             <Navigation />
             <div className="cart-container">
                 <h1>Your Cart</h1>
-                <table className="cart-table">
-                    <thead>
-                        <tr>
-                            <th>Item</th>
-                            <th>Flavor</th>
-                            <th>Price/Unit</th>
-                            <th>Image</th>
-                            <th>Quantity</th>
-                            <th>Price</th>
-                            <th></th>
-                        </tr>
-                    </thead>
-                    <tbody>
                         {cartItems.length > 0 ? (
                             cartItems.map((item, index) => (
-                                <tr key={index} className="cart-item">
-                                    <td>{item.name}</td>
-                                    <td>{item.flavor}</td>
-                                    <td>{item.price} $</td>
-                                    <td><img src={item.img} alt={item.name} /></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td><button>remove</button></td>
-                                </tr>
+                                <div key={index} className="cart-item">
+                                    <div className='item-name'>{item.name}  {item.flavor}</div>
+                                    <div className='item-price'>Price: {item.price} $</div>
+                                    <div className='item-image'><img src='/images/Products/100 Whey.jpg' alt={item.name} className='CartImage'/></div>
+                                    <div className='item-quantity'></div>
+                                    <div className='item-total'></div>
+                                    <div className='item-remove'><button>remove</button></div>
+                                </div>
                             ))
                         ) : (
-                            <tr>
-                                <td colSpan="7">Your cart is empty.</td>
-                            </tr>
+                            <div>
+                                <span>Your cart is empty.</span>
+                            </div>
                         )}
-                    </tbody>
-                </table>
+                
             </div>
             <Footer />
         </>
